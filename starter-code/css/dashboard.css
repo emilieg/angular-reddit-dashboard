@@ -68,7 +68,9 @@ body {
   color: #fff;
   background-color: #428bca;
 }
-
+.nav>li>a {
+  display: inline-block;
+}
 
 /*
  * Main content
@@ -123,4 +125,8 @@ body {
 .nav-sidebar > li a.deletex:hover{
   color: red;
   background: none;
+}
+
+.active {
+  background-color: #FF735C;
 }
